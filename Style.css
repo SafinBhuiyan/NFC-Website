@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/background_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.left-content{
+    width: 50%;
+    margin-left: 200px;
+}
+.right-img{
+    width: 50%;
+}
+.right-img img{
+    width: 100%;
+}
+.title{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 65px;
+}
+.heading{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+}
+.name{
+    color: #4776FF;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+}
+.text{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+
+}
+.btn{
+    width: 230px;
+    height: 49px;
+    padding: 19px 17px;
+    background: linear-gradient(90deg, #4C9FD4 0%, #7239FD 100%);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    gap: 21px;
+  
+}
+.btn a{
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+#link-btn{
+    padding: 16px 27px;
+    gap: 10px;
+    width: 220px;
+    height: 49px;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: black;
+}
+#link-btn a{
+    cursor: pointer;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* button{
+  
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+} */
+
+.social-icon{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.social-icon li{
+    list-style: none;
+    margin: 0px 5px 5px 5px;
+    padding: 0px 5px 5px 5px;
+}
+.social-icon li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.mudrok{
+    width: 100px;
+    height: 30px;
+}
+
